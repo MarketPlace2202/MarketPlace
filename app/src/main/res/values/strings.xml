@@ -3,4 +3,9 @@
     <string name="title_text">smile</string>
     <string name="textWrite">WoW !! Welcome Buddy</string>
     <string name="get_started_text">Let Go!</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Paascode</string>
+    <string name="login_text">SignIn</string>
+    <string name="or">Or</string>
+    <string name="create_text" translatable="false">Create Account</string>
 </resources>
