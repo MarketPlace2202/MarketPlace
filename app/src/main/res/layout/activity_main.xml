@@ -17,7 +17,7 @@
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="@string/title_text"
-        android:textSize="30sp"
+        android:textSize="31sp"
         android:textStyle="bold" />
 
     <RelativeLayout
