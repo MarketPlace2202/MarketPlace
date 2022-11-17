@@ -54,6 +54,7 @@ public class CreateAccountActivity extends AppCompatActivity {
 
         createAcctButton = findViewById(R.id.create_acct_button);
         progressBar = findViewById(R.id.create_acct_progress);
+        emailEditText = findViewById(R.id.email_account);
         passwordEditText = findViewById(R.id.password_account);
         userNameEditText = findViewById(R.id.username_account);
 
