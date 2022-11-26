@@ -28,6 +28,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
+import util.JournalApi;
+
 public class CreateAccountActivity extends AppCompatActivity {
     private Button loginButton;
     private Button createAcctButton;
@@ -122,6 +124,10 @@ public class CreateAccountActivity extends AppCompatActivity {
                                                                                             progressBar.setVisibility(View.INVISIBLE);
                                                                                             String name = task.getResult()
                                                                                                     .getString("username");
+                                                                                            //Storing data to singleton class so that we fetch it up in journal page
+                                                                                           JournalApi journalApi = JournalApi.getInstance();
+                                                                                           journalApi.setUserId(currentUserId);
+                                                                                           journalApi.setUsername(name);
 
                                                                                            Intent intent = new Intent(CreateAccountActivity.this,
                                                                                                    PostJournalActivity.class);

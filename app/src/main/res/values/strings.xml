@@ -9,4 +9,6 @@
     <string name="or">Or</string>
     <string name="create_text" translatable="false">Create Account</string>
     <string name="username_hint">user name</string>
+    <string name="thoughts">your thoughts</string>
+    <string name="submit">Submit</string>
 </resources>
